@@ -1,4 +1,7 @@
 package calculation;
+
+import java.math.BigDecimal;
+
 /**
  * Interface welches Methoden zur Berechnung und zum erhalten eines Ergebnisses zurückgibt
  * @author Gabriel
@@ -7,5 +10,5 @@ package calculation;
 public interface Calculation {
 
 	public void calculate();
-	public void getResult();
+	public BigDecimal getResult();
 }

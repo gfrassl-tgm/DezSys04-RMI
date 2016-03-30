@@ -23,9 +23,9 @@ public class Client {
 	 * @param args cli argumente - anzahl der Stellen von Pi
 	 */
 	public static void main(String[] args) {
-		//if (System.getSecurityManager() == null) {
+		 //if(System.getSecurityManager() == null) {
 			//System.setSecurityManager(new SecurityManager());
-		//}
+		 //}
 		try {
 			Registry registry = LocateRegistry.getRegistry(1233);
 

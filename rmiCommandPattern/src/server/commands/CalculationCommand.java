@@ -15,7 +15,7 @@ public class CalculationCommand implements Command, Serializable {
 	private PICalc calc;
 
 	/**
-	 * ruft die berechnungsmethoden von Calculation auf
+	 * ruft die berechnungsmethoden von PiCalc auf
 	 */
 	@Override
 	public void execute() {
